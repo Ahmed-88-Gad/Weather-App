@@ -2,7 +2,7 @@
 
 // Create a new date instance dynamically with JS
 let d = new Date();
-let newDate = d.getDate()+'.'+d.getMonth()+'.'+ d.getFullYear();
+//let newDate = d.getDate()+'.'+d.getMonth()+'.'+ d.getFullYear();
 
 // PERSONAL API KEY FOR OPENWEATHER API
 let apiURL = 'http://api.openweathermap.org/data/2.5/weather?units=metric&zip=';
@@ -45,7 +45,7 @@ function run()
           .then(function(data){
             console.log(data);
             let dataObject = {
-              date :newDate,
+              date :d,
               temp:data.main.temp,
               content:'I feel '+feel
               };
