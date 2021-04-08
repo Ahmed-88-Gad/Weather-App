@@ -46,11 +46,7 @@ app.get('/all',function(req,res)
 // POST method route
 app.post('/add', function (req, res) {
   console.log(req.body);
-  //newEntry = {
     projectData.date = req.body.date;
     projectData.temp = req.body.temp;
     projectData.content = req.body.content;
 });
-  //}
-//projectData.push(newEntry);
-//});
