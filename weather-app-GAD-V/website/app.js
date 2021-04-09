@@ -5,8 +5,8 @@ let d = new Date();
 //let newDate = d.getDate()+'.'+d.getMonth()+'.'+ d.getFullYear();
 
 // PERSONAL API KEY FOR OPENWEATHER API
-let apiURL = 'http://api.openweathermap.org/data/2.5/weather?units=metric&zip=';
-let apiKey = '&appid=c2ac8cebe9a2e0c7ec663f00467a6445';
+const apiURL = 'http://api.openweathermap.org/data/2.5/weather?units=metric&zip=';
+const apiKey = '&appid=c2ac8cebe9a2e0c7ec663f00467a6445';
 
 
 let feel = document.getElementById('feelings').value;
